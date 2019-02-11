@@ -1,0 +1,363 @@
+{
+    "header": {
+            "logo": {
+                "details": {
+                    "image": "logo"
+                }
+            },
+            "mainNavigation": {
+                "details": {
+                    "items": {
+                        "item1": {
+                            "type": "title",
+                            "details": {
+                                "tag": "h4",
+                                "text": "Account Features",
+                                "sublist": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Mobile Banking"
+                                        },
+                                        "link": {
+                                            "to": "/mobile-banking"
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Fee-free"
+                                        },
+                                        "link": {
+                                            "to": "/fee-free"
+                                        }
+                                    },
+                                    "item3": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Goals"
+                                        },
+                                        "link": {
+                                            "to": "/goals"
+                                        }
+                                    }
+                                }
+                            },
+                            "link": {
+                                "to": "/mobile-banking"
+                            }
+                        },
+                        "item2": {
+                            "type": "title",
+                            "details": {
+                                "tag": "h4",
+                                "text": "About",
+                                "sublist": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "About Simple"
+                                        },
+                                        "link": {
+                                            "to": "/about"
+                                        }
+                                    }
+                                }
+                            },
+                            "link": {
+                                "to": "/about"
+                            }
+                        },
+                        "item3": {
+                            "type": "title",
+                            "details": {
+                                "tag": "h4",
+                                "text": "Blog",
+                                "sublist": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Our Blog"
+                                        },
+                                        "link": {
+                                            "to": "/blog"
+                                        }
+                                    }
+                                }
+                            },
+                            "link": {
+                                "to": "/blog"
+                            }
+                        },
+                        "item4": {
+                            "type": "title",
+                            "details": {
+                                "tag": "h4",
+                                "text": "Help",
+                                "sublist": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "FAQs"
+                                        },
+                                        "link": {
+                                            "to": "/help"
+                                        }
+                                    }
+                                }
+                            },
+                            "link": {
+                                "to": "/help"
+                            }
+                        }
+                    }
+
+                }
+            },
+            "accountNavigation": {  
+                    "details": {
+                        "items": {
+                            "item1": {
+                                "type": "button",
+                                "details": {
+                                    "type": "button",
+                                    "text": "LogIn"
+                                },
+                                "link": {
+                                    "to": "/login"
+                                }
+                            },
+                            "item2": {
+                                "type": "button",
+                                "details": {
+                                    "type": "button",
+                                    "text": "Apply"
+                                },
+                                "link": {
+                                    "to": "/apply"
+                                }
+                        }
+    
+                }
+
+            }
+        }       
+    },
+    "footer": {
+            "footerNavigation": {
+                    "details": {
+                        "items": {
+                            "item1": {
+                                "type": "title",
+                                "details": {
+                                   "tag": "h4",
+                                   "text": "Account Features",
+                                   "sublist": {
+                                        "item1": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Mobile Banking"
+                                            }
+                                        },
+                                        "item2": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Fee-free"
+                                            }
+                                        },
+                                        "item3": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Goals"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "item2": {
+                                "type": "title",
+                                "details": {
+                                   "tag": "h4",
+                                   "text": "About",
+                                   "sublist": {
+                                        "item1": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "About Simple"
+                                            },
+                                            "link": {
+                                                "to": "/about"
+                                            }
+                                        },
+                                        "item2": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Press"
+                                            }
+                                        },
+                                        "item3": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Careers"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "item3": {
+                                "type": "title",
+                                "details": {
+                                   "tag": "h4",
+                                   "text": "Blog",
+                                   "sublist": {
+                                        "item1": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Insparation"
+                                            }
+                                        },
+                                        "item2": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Company"
+                                            }
+                                        },
+                                        "item3": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Engineering"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "item4": {
+                                "type": "title",
+                                "details": {
+                                   "tag": "h4",
+                                   "text": "Help",
+                                   "sublist": {
+                                        "item1": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "FAQs"
+                                            }
+                                        },
+                                        "item2": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Support Articles"
+                                            }
+                                        },
+                                        "item3": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "ATM Finder"
+                                            }
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }
+        },
+        "copyrights": {
+            "details": {
+                "items": {
+                    "item1": {
+                        "type": "element",
+                        "details": {
+                            "tag": "p",
+                            "text": "Banking services provided by BBVA Compass. BBVA Compass is a trade name of Compass Bank, Member FDIC. The Simple Visa® Card is issued by Compass Bank pursuant to a license from Visa U.S.A. Inc. and may be used everywhere Visa debit cards are accepted."
+                        }
+                    }
+                }
+            }
+        },
+        "socialMedia": {
+            "details": {
+                "items": {
+                    "item1": {
+                        "type": "title",
+                        "details": {
+                            "tag": "h3",
+                            "text": "Join Our Community"
+                        }
+                    },
+                    "item2": {
+                        "type": "list",
+                        "details": {
+                            "items": {
+                                "item1": {
+                                    "type": "image",
+                                    "details": {
+                                        "src": "facebook"
+                                    }
+                                },
+                                "item2": {
+                                    "type": "image",
+                                    "details": {
+                                        "src": "instagram"
+                                    }
+                                },
+                                "item3": {
+                                    "type": "image",
+                                    "details": {
+                                        "src": "twitter"
+                                    }
+                                },
+                                "item4": {
+                                    "type": "image",
+                                    "details": {
+                                        "src": "youtube"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "signup": {
+            "details": {
+                "items": {
+                    "item1": {
+                        "type": "title",
+                        "details": {
+                            "tag": "h3",
+                            "text": "Stay Connected"
+                        }
+                    },
+                    "item2": {
+                        "type": "input",
+                         "details": {
+                            "placeholder": "Email Address",
+                            "button": {
+                                "text": "Signup",
+                                "type": "submit"
+                            }
+                        }         
+                    }
+                }
+            }
+        }
+    }
+}

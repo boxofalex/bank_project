@@ -1,0 +1,91 @@
+{
+    "blocks": {
+        "block1": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "banner",
+                    "details": {
+                        "image": {
+                            "src": "homePageHeaderBanner"
+                        },
+                        "onImage": {
+                            "type": "article",
+                            "details": {
+                                "title": {
+                                    "tag": "h1",
+                                    "text": "Banking and budgeting in one simple app."
+                                },
+                                "text": "<p>Open your account in just a couple minutes.</p>"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "block2": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "How it works."
+                            },
+                            "text": "<p><strong>Put money in your account</strong><br /> Either by direct-depositing your paycheck or transfering from another bank.</p> <p><strong>We’ll help you divvy things up</strong> <br /> Making sure your Expenses and Goals are covered, automatically.</p> <p><strong>So you can spend with certainty</strong> <br /> Knowing exactly how much of your total balance is Safe-to-Spend.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "infoblock1Pic"
+                        }
+                    }
+                },
+                "item2": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "Always know what's Safe-to-Spend."
+                            },
+                            "text": "<p>Make smart spending decisions on the spot. Our budgeting tool does the 'can-I-buy-this?' math for you, setting aside enough money every month to cover your Expenses and Goals.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "infoblock2Pic"
+                        }
+                    }
+                },
+                "item3": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "Make plans for what to do, not what’s due."
+                            },
+                            "text": "<p>Set up your recurring expenses (think power bill, cable, internet) in our app, and we'll do the work of saving for them each month. When you know your bills are covered, you can focus on the fun parts of having money—like saving for Japan and buying that new bike.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "infoblock3Pic"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

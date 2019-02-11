@@ -1,0 +1,358 @@
+{
+    "blocks":{
+        "block1": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "banner",
+                    "details": {
+                        "image": {
+                            "src": "usage"
+                        },
+                        "onImage": {
+                            "type": "title",
+                            "details": {
+                                    "tag": "h1",
+                                    "text": "Simple 101: How to Use the App"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "block2": {
+                "layout": {
+                    "type": "onecolumn"
+                },
+                "items": {
+                    "item1": {
+                        "type": "title",
+                        "details": {
+                            "tag": "h2",
+                            "text": "True Stories"
+                    }
+                }
+            }
+        },
+            "block3": {
+                "layout": {
+                    "type": "flexcontainer"
+                },
+                "items": {
+                    "item1": {
+                        "blocks": {
+                            "item1": {
+                                "type": "block",
+                                "details": {
+                                    "items": {
+                                        "item1": {
+                                            "type": "banner",
+                                            "details": {
+                                                "image": {
+                                                    "src": "dog"
+                                                }
+                                            }
+                                        },
+                                        "item2": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Swapping stability for mobility"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "item2": {
+                                "type": "block",
+                                "details": {
+                                    "items": {
+                                        "item1": {
+                                            "type": "banner",
+                                            "details": {
+                                                "image": {
+                                                    "src": "smile"
+                                                }
+                                            }
+                                        },  
+                                        "item2": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Saving for a surprise in Scotland"
+                                            }
+                                        }
+                                    }
+                                }
+    
+                            },
+                            "item3": {
+                                "type": "block",
+                                "details": {
+                                    "items": {
+                                        "item1": {
+                                            "type": "banner",
+                                            "details": {
+                                                "image": {
+                                                    "src": "zoo"
+                                                }
+                                            }  
+                                        },
+                                        "item2": {
+                                            "type": "title",
+                                            "details": {
+                                                "tag": "h4",
+                                                "text": "Saving to travel Down Under"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "block4": {
+                "layout": {
+                    "type": "onecolumn"
+                },
+                "items": {
+                    "item1": {
+                        "type": "title",
+                        "details": {
+                            "tag": "h2",
+                            "text": "Money Tips"
+                    }
+                }
+            }
+        },
+        "block5": {
+            "layout": {
+                "type": "flexcontainer"
+            },
+            "items": {
+                "item1": {
+                    "blocks": {
+                        "item1": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "woman"
+                                            }
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "School yourself in savings"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "item2": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "winter"
+                                            }
+                                        }
+                                    },  
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "How to manage money as a couple"
+                                        }
+                                    }
+                                }
+                            }
+
+                        },
+                        "item3": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "usage"
+                                            }
+                                        }  
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Simple 101: How to Use the App"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "block6": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "title",
+                    "details": {
+                        "tag": "h2",
+                        "text": "Budgets"
+                    }
+                }
+            }
+        },
+        "block7": {
+            "layout": {
+                "type": "flexcontainer"
+            },
+            "items": {
+                "item1": {
+                    "blocks": {
+                        "item1": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "sea"
+                                            }
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Budget for your winter trip to Cancun"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "item2": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "photo"
+                                            }
+                                        }
+                                    },  
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Must-have photography gear for beginners"
+                                        }
+                                    }
+                                }
+                            }
+
+                        },
+                        "item3": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "table"
+                                            }
+                                        }  
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Everything you need to host the perfect holiday dinner"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "block8": {
+            "layout": {
+                "type": "flexcontainer"
+            },
+            "items": {
+                "item1": {
+                    "blocks": {
+                        "item1": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "beach"
+                                            }
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Budget for a sunny gataway in Hawaii"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "item2": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "banner",
+                                        "details": {
+                                            "image": {
+                                                "src": "space"
+                                            }
+                                        }
+                                    },  
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Behind the budget: space suit"
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

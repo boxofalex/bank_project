@@ -1,0 +1,33 @@
+@import 'styles/shared/index.scss';
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+    @include atMedium {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @include atSmall {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @include atSmallest{
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.leftBlock {
+
+    border: 0
+}
+
+.rightBlock {
+
+    border: 0
+}

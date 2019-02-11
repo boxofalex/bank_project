@@ -1,0 +1,137 @@
+@import 'styles/shared/index.scss';
+
+
+// section
+.section {
+
+    margin: 0 1rem 8rem 1rem;
+
+    @include atMediumBelow {
+        margin: 0 1rem 4rem 1rem;
+    }
+}
+
+
+.banner {
+
+    height: 90vh;
+}
+
+.bannerArticle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5rem;
+
+    @include atMediumBelow {
+
+        margin: 2rem 1rem 0 1rem;
+    }
+}
+
+.title1 {
+
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.row {
+
+    border: 0;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+
+    @include atSmall {
+
+        display: block;
+        margin: 0;
+    }
+
+    @include atSmallest {
+
+        display: block;
+        margin: 0;
+    }
+}
+
+.itemRow {
+
+    border: 0;
+    margin: 0 2rem 0 0;
+    width: 30%;
+
+    @include atSmall {
+
+        display: flex;
+        justify-content: start;
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    @include atSmallest {
+
+        display: flex;
+        justify-content: start;
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+
+
+    & span {
+
+        display: block;
+        width: 100%;
+    }
+
+    & > span:first-child {
+
+        @include atSmall {
+
+            width: 30%;
+        }
+        @include atSmallest {
+
+            width: 30%;
+        }
+        
+         & div {
+         
+            height: 15rem;
+            background-size: cover;
+    
+            @include atSmall {
+    
+                height: 8rem;
+            }
+    
+            @include atSmallest {
+    
+                height: 5rem;
+            }
+        }
+
+    }
+    
+    
+
+
+    & > span:last-child  {
+        
+       text-align: start;
+
+       @include atSmall {
+
+           padding: 3rem 0 0 1rem;
+           width: 65%;
+       }
+
+       @include atSmallest {
+
+            padding: 1rem 0 0 1rem;
+            width: 65%;
+        }
+    }
+}
+
+

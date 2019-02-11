@@ -1,0 +1,128 @@
+@import 'styles/shared/index.scss';
+
+//footer
+
+.footer {
+
+    grid-column: 1/5;
+    display: grid;
+    align-content: start;
+    width: 90%;
+    margin: 0 auto;
+
+    @include atMediumBelow {
+        
+        width: 100%;
+        margin: 0 1rem;
+    }
+}
+
+// navigation
+
+.bottomNavigation {
+
+    border: 0;
+    margin: 0 0 3rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 2rem 0;
+    }
+}
+
+.navElements {
+   
+    border: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0;
+
+    @include atSmallBelow {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    & li {
+
+        margin: 0.5rem 0;
+    }
+}
+
+
+// socila links && signup form
+
+.contact {
+
+    margin: 0 0 3rem 0;
+
+    @include atSmallBelow {
+
+        margin: 0 0 2rem 0;
+     }
+}
+
+
+.socialLinks {
+
+    margin: 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 2rem 0;
+    }
+
+    & img {
+
+        width: 2rem;
+        margin: 0 0.5rem 0 0;
+    }
+
+     & ul {
+
+        margin-top: 0.5rem;
+    }
+
+    & li {
+ 
+        display: inline-block; 
+    }
+}
+
+
+.signupForm {
+   
+    margin: 0;
+
+    & form {
+
+        margin-top: 0.5rem;
+    }
+}
+
+
+//copyright
+
+.copyright {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    & p {
+        font-size: 0.8rem;
+        grid-column: 1/4;
+        margin: 0 0 3rem 0;
+    
+        @include atMediumBelow {
+           grid-column: 1/6;
+           margin: 0 0 2rem 0;
+        }
+    }
+
+    @include atMediumBelow {
+
+        padding: 0 1rem 0 0;
+    }
+}
+
+
+

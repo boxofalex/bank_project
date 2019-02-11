@@ -1,0 +1,123 @@
+{
+    "blocks": {
+        "block1": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "title",
+                    "details": {
+                        "tag": "h1",
+                        "text": "Frequently asked questions."
+                    }
+                }
+            }
+        },
+        "block2": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "title",
+                    "details": {
+                        "tag": "h2",
+                        "text": "The fundamentals"
+                    }
+                }
+            }
+        },
+        "block3": {
+            "layout": {
+                "type": "flexcontainer"
+            },
+            "items": {
+                "item1": {
+                    "blocks": {
+                        "item1": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h3",
+                                            "text": "What is Simple?"
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "text",
+                                        "details": {
+                                            "text": "<p>Simple offers a bank account that has all the tools you need to manage your money built right in. The funds in your Simple account are held by our partner bank, Compass Bank, Member FDIC. (BBVA Compass is a trade name of Compass Bank.) Simple provides everything else, including the Simple Visa® Card, our powerful iOS and Android apps, a beautifully designed web interface, and customer support that really cares.</p>"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "item2": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h3",
+                                            "text": "What are you all about?"
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "text",
+                                        "details": {
+                                            "text": "<p>Simple’s about making managing your personal finances effortless. We adamantly believe that making smart spending and saving choices should be easy, and often even fun. All the tools you need to manage your money are built right into your account, where they’re most effective.</p>"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "item3": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h3",
+                                            "text": "Does Simple charge fees?"
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "text",
+                                        "details": {
+                                            "text": "<p>Nope. It’s your money, and we believe you should be free to access it when you want it. So we don’t charge our customers fees.</p><p>Although Simple doesn’t charge fees, there are a couple of fees charged by other companies that you may encounter. We want you to be aware of them, so here’s the scoop:</p><ol><li>If you use an ATM outside of our fee-free network, the ATM owner may charge a fee.</li><li>If you use your Simple card internationally, Visa will include an International Service Assessment (ISA) fee of up to 1% of the total transaction amount.</li></ol>"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "item4": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h3",
+                                            "text": "Simple is a business, right? How do you make money if you don’t charge fees?"
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "text",
+                                        "details": {
+                                            "text": "<p>Great question. There are two ways we make money at Simple.</p><ol><li>Although we love technology, we don’t knock tradition. In the past, banks made most of their profits off interest margin—the difference between the amount of interest they make on loans, and the interest they pay customers on their deposits. Our partner banks split this interest margin with Simple.</li><li>When you swipe your debit card, the merchant pays a service fee (called interchange) to the issuing bank. Our partners split this with us.</li><li>That’s it, which means we only make money when our customers use and love their accounts.</li></ol>"
+                                        }
+                                    }
+                                }
+                            }
+                        }    
+                    }
+                }
+            }
+        }
+    }
+}

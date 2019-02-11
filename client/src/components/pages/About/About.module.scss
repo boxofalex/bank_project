@@ -1,0 +1,63 @@
+@import 'styles/shared/index.scss';
+
+// section
+
+.section {
+
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+
+.title {
+
+    margin: 6rem 0 0 0;
+    text-align: center;
+
+    @include atMediumBelow {
+
+        margin: 4rem 0 0 0;
+        padding: 0 1rem;
+    }
+}
+
+.image {
+    
+    width: 90%;
+    margin: 6rem auto;
+
+    @include atMediumBelow {
+
+        width: 100%;
+        margin: 4rem 0;
+        padding: 0 1rem;
+    }
+}
+
+.article {
+
+    width: 50%;
+    margin: 0 auto 6rem;
+
+    & p {
+
+        margin: 2rem 0 2rem 0
+    }
+
+    @include atMedium {
+
+        width: 80%;
+        padding: 0 1rem;
+    }
+
+    @include atSmallBelow {
+
+        width: 90%;
+        margin: 0 0 3rem 0;
+        padding: 0 1rem;
+    }
+}

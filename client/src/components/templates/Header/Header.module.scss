@@ -1,0 +1,209 @@
+@import 'styles/shared/index.scss';
+
+.header {
+    
+    grid-column: 1/5;
+    display: grid;
+    align-content: start;
+}
+
+
+.headbar {
+    
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: white;
+}
+
+
+// logo
+.logo {
+
+    background: white;
+    float: left;
+}
+
+.logoImage {
+
+  width: 7rem;
+  margin: 1rem 3rem 1rem 0.5rem;
+
+  @include atSmallBelow {
+
+    width: 6rem;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+  }
+}
+
+// burger menu
+
+.navMenu {
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+
+    & div {
+        background: blue;
+    }
+}
+
+
+.isMobile .navMenu {
+
+    display: block
+}
+
+
+// nav container
+
+.navContainer {
+
+    border: 0; 
+    background: white;
+}
+
+.isMobile .navContainer::before {
+    
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.navContainer::after {
+
+    clear: both;
+}
+
+
+.navContainer.notexpandedContainer  {
+    
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.mainNav {
+
+    float: left;
+    display: block;
+    margin: 1.2rem 0 0 0;
+
+    @include atMediumBelow {
+
+        float: none;
+    }
+}
+
+.mainNavElements  {
+
+    display: grid;
+    grid-template-columns: 10rem 9rem 9rem 9rem;
+
+    @include atMediumBelow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.mainNavElements > li {
+
+   margin: 0;
+
+   @include atMediumBelow {
+
+     margin: 0 0 0 2rem;
+   }
+}
+
+.mainNavElements :global(.sublist) {
+
+    margin: 2rem 0 2rem 0;
+
+    @include atMediumBelow {
+
+        margin: 1rem 0 1rem 0;
+    }
+}
+
+.mainNavElements :global(.sublist) li {
+
+    margin: 0.5rem 0 0 0;
+}
+
+.notexpanded :global(.sublist) {
+    
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.accountNav {
+
+    border: 0;
+    float: right;
+    display: block;
+    margin: 0.8rem 0 0 0;
+}
+
+.isMobile .accountNav {
+
+    width: 100%;
+    float: none;
+}
+
+
+.accountNavElements {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.accountNavElements > li {
+
+    width: 80%;
+    margin: 0 1rem 0 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 0 2rem;
+    }
+}
+
+
+.isMobile .accountNavElements button {
+
+    width: 80%;
+}
+
+
+
+
+// login
+
+.logIn button  {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 2px solid blue;
+    background: white;
+    color: blue;
+    cursor: pointer;
+}
+
+//apply
+
+.apply button {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border: 2px solid blue;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+

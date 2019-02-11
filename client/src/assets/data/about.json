@@ -1,0 +1,49 @@
+{
+    "blocks": {
+        "block1": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "title",
+                    "details": {
+                        "tag": "h1",
+                        "text": "Be proud of your bank."
+                    }
+                }
+            }
+        },
+        "block2": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "image",
+                    "details": {
+                        "src": "simpleWall"
+                    }
+                }
+            }
+        },
+        "block3": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "article",
+                    "details": {
+                        "title": {
+                            "tag": "h2",
+                            "text": "What is Simple?"
+                        },
+                        "text": 
+                        "<p>Way back when, in 2009, after another frustrating banking experience involving hidden fees, unnecessary products, long holds, and complicated conversations, Simple’s future founder Josh Reich emailed his friend (and future co-founder) Shamir Karkal, with some big questions:</p><p>Why is banking so complicated?<br />Can a bank exist to help people, not confuse them?<br />What if banks didn’t charge so many ridiculous fees?<br />What if your bank taught you to feel confident with money?<br /><p>The answer to each question was Simple.</p><p>Years after that first email, growing swiftly into our beautiful, multi-floor homebase in the misty valleys of Portland, Oregon (and the many other states from which our remote employees hail), we are still asking those questions. We’re answering them, too.</p><p>We created an FDIC-insured checking account built to help you save money, and to support smart spending with built-in budgeting tools. The accounts are free, and we don’t charge fees. Our customer service is kind, helpful and human (in other words, talking to us won’t inspire you to start a bank of your own out of frustration).</p><p>Sometimes, all it takes to change things is to start asking questions.</p><p>We hope that no matter what brought you here, whether you’re a poor poet in need of some budgeting help (true story) or a budget-wise financial wizard who wants an account to replace their spreadsheets (also a true story), a round-the-country-traveler in need of a banking experience to support that mobile lifestyle (oh hey, true again), you know that we see you. We see the banking industry and agree that it needs to change. And we’re working to change it for all of us.</p>"
+                    }
+                }
+            }
+        }                    
+    }
+}

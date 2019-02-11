@@ -1,0 +1,85 @@
+@import 'styles/shared/index.scss';
+
+
+// section
+.section {
+
+    margin: 0 1rem 8rem 1rem;
+
+    @include atMediumBelow {
+        margin: 0 1rem 4rem 1rem;
+    }
+}
+
+
+.mainTitle {
+
+    margin: 8rem 1rem 8rem 1rem;
+    text-align: center;
+
+    @include atMediumBelow {
+
+        margin: 4rem 1rem 4rem;
+    }
+}
+
+.title1 {
+
+    text-align: center;
+    margin: 0 0 2rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 1rem 0;
+    }
+}
+
+.row {
+
+    border: 0;
+    flex-wrap: wrap;
+    justify-content: start;
+
+    @include atMediumBelow {
+
+        display: block;
+    }
+}
+
+.itemRow {
+
+    border: 0;
+    width: 30%;
+    margin: 0 1rem 0 0;
+
+    @include atMediumBelow {
+
+        width: 100%;
+    }
+
+    & p {
+      
+        margin: 1rem 0 1rem 0;
+
+    }
+    
+    & span {
+
+        display: block;
+
+        & ol {
+
+            list-style: inherit;
+        }
+    }
+
+    & > span:first-child {
+
+        
+    }
+
+    & > span:last-child {
+
+        
+    }
+}

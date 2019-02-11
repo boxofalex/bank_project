@@ -1,0 +1,371 @@
+@import 'styles/shared/index.scss';
+
+
+section {
+
+    margin: 0;
+    padding: 0;
+}
+
+.title1 {
+
+    margin: 8rem 0 0 0;
+    text-align: center;
+
+    @include atMediumBelow {
+
+        margin: 4rem 0 0 0;
+    }
+}
+
+.title2 {
+
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+    
+}
+
+.image1 {
+    
+    margin: 3rem auto 8rem;
+
+    @include atMediumBelow {
+
+        margin: 3rem auto 3rem;
+    }
+}
+
+
+.article1 {
+
+    border: 0;
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+
+.container1 {
+
+    border: 0;
+    width: 80%;
+    margin: 0 auto;
+
+    @include atMediumBelow {
+
+        width: 100%;
+    }
+}
+
+.left1 {
+
+    border: 0;
+
+    & div {
+
+        margin: 0 3rem 0 0;
+
+        @include atMediumBelow {
+
+            margin: 0 2rem 2rem 1rem;
+        }
+    }
+}
+
+.right1 {
+
+    border: 0;
+    justify-self: end;
+
+    @include atMediumBelow {
+
+        justify-self: start;
+    }
+
+    img {
+
+        width: 20rem;
+
+        @include atMediumBelow {
+
+            width: 15rem;
+            margin: 0 0 0 1rem;
+        }
+
+    }
+}
+
+
+.article2 {
+
+    border: 0;
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+
+.container2 {
+
+    border: 0;
+    width: 80%;
+    margin: 0 auto;
+
+    @include atMediumBelow {
+
+        width: 100%;
+    }
+}
+
+.left2 {
+
+    border: 0;
+
+    & span {
+        
+        display: block;
+        margin: 0 0 2rem 0;
+
+        @include atMediumBelow {
+
+            margin: 0 0 1rem 0;
+
+            @include atMediumBelow {
+
+                margin: 0 0 0.5rem 0;
+            }
+        }
+    }
+
+    & p {
+
+        margin: 1rem 0 0 0;
+    }
+
+    & div, & img {
+
+        margin: 0 0 0 0;
+
+        @include atMediumBelow {
+
+            margin: 0 0 0 1rem;
+        }
+    }
+
+    & img {
+
+        width: 30rem;
+
+        @include atMediumBelow {
+
+            width: 80%;
+        }
+    }
+}
+
+.right2 {
+
+    border: 0;
+}
+
+
+
+.article3 {
+
+    border: 0;
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+
+.container3 {
+
+    border: 0;
+    width: 80%;
+    margin: 0 auto;
+
+    @include atMediumBelow {
+
+        width: 100%;
+    }
+}
+
+.left3 {
+
+    border: 0;
+
+    & div {
+
+        margin: 0 0 0 0;
+
+        @include atMediumBelow {
+
+            margin: 0 0 0 1rem;
+        }
+    }
+}
+
+.right3 {
+
+    border: 0;
+}
+
+
+.article4 {
+
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+.table1 {
+
+    border: 0;
+    width: 60%;
+    margin: 0 0 0 7rem;
+
+    @include atMediumBelow {
+
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    & table, & th, & td {
+
+        border: 2px solid lightgrey;
+        border-collapse: collapse;
+    }
+
+    & span {
+        display: block;
+        margin: 0 1rem;
+    }
+
+}
+
+
+.article5 {
+
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+
+.table2 {
+
+    border: 0;
+    width: 60%;
+    margin: 0 0 0 7rem;
+
+    @include atMediumBelow {
+
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    & table, & th, & td {
+
+        border: 2px solid lightgrey;
+        border-collapse: collapse;
+    }
+
+    & th, & td {
+
+        max-width: 30rem;
+    }
+
+    & span {
+        display: block;
+        margin: 0 1rem;
+    }
+
+}
+
+
+.article6 {
+
+    border: 0;
+    margin: 8rem 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 4rem 0 4rem 0;
+    }
+}
+
+
+.container4 {
+
+    border: 0;
+    width: 80%;
+    margin: 0 auto;
+
+    @include atMediumBelow {
+
+        width: 100%;
+    }
+}
+
+.left4 {
+
+    border: 0;
+
+    & div {
+
+        margin: 0 3rem 0 0;
+
+        @include atMediumBelow {
+
+            margin: 0 2rem 2rem 1rem;
+        }
+    }
+}
+
+.right4 {
+
+    border: 0;
+    justify-self: end;
+
+    @include atMediumBelow {
+
+        justify-self: start;
+    }
+
+    img {
+
+        width: 20rem;
+
+        @include atMediumBelow {
+
+            width: 15rem;
+            margin: 0 0 0 1rem;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+

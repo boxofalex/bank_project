@@ -1,0 +1,208 @@
+@import 'styles/shared/index.scss';
+
+
+section {
+
+    margin: 0;
+    padding: 0;
+}
+
+.title1 {
+
+    margin: 8rem 0 0 0;
+    text-align: center;
+
+    @include atMediumBelow {
+
+        margin: 4rem 0 0 0;
+    }
+}
+
+.title2 {
+
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+    
+}
+
+.image1 {
+    
+    margin: 3rem auto 8rem;
+
+    @include atMediumBelow {
+
+        margin: 3rem auto 3rem;
+    }
+}
+
+.article1 {
+
+    width: 50%;
+    margin: 0 auto 3rem;
+
+    & p {
+
+        margin: 2rem 0 2rem 0
+    }
+
+    & div {
+
+        margin: 0 0 4rem 0;
+    }
+
+    @include atMedium {
+        width: 80%;
+    }
+
+    @include atSmall {
+
+        width: 90%;
+        margin: 0 1rem 4rem 1rem;
+    }
+
+    @include atSmallest {
+        
+        width: 90%;
+        margin: 0 1rem 4rem 1rem;
+    }
+
+   
+}
+
+
+.features {
+
+    border: 0;
+    margin: 0 0 8rem 0;
+
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+.row {
+
+    border: 0;
+
+    @include atSmall {
+
+        display: block;
+    }
+
+    @include atSmallest {
+
+        display: block;
+    }
+}
+
+.itemRow {
+
+    border: 0;
+    width: 15rem;
+    margin: 1rem 2rem 1rem 0;
+
+    @include atMedium {
+
+        width: 12rem;
+        margin: 1rem 1rem 1rem 0;
+    }
+
+    @include atSmall {
+
+        width: 15rem;
+        margin: 2rem auto
+    }
+
+    @include atSmallest {
+
+        width: 15rem;
+        margin: 2rem auto
+    }
+
+    & span {
+
+        display: block;
+        margin: 0 0 0.5rem 0;
+        text-align: center;
+    }
+
+    & img {
+
+        margin: 0 auto 1rem;
+        width: 5rem;
+
+        @include atSmall {
+
+            width: 5rem;
+        }
+
+        @include atSmallest {
+
+            width: 5rem;
+        }
+    }
+}
+
+
+
+.twocolumns {
+
+    border: 0;
+    margin: 0 auto 3rem;
+    width: 90%;
+
+    @include atMediumBelow {
+
+        width: 100%;
+        margin: 0 1rem 3rem 1rem;
+    }
+}
+
+.twocolumns .container:first-child {
+
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+
+        margin: 0 0 4rem 0;
+    }
+}
+
+.container {
+
+    border: 0;
+}
+
+.left {
+
+    border: 0;
+
+    & div {
+
+        margin: 7rem 0 0 3rem;
+
+        @include atMediumBelow {
+
+            margin: 0 2rem 2rem 0;
+        }
+    }
+}
+
+.right {
+
+    border: 0;
+
+    img {
+
+        margin: 0 auto;
+        width: 15rem;
+
+        @include atMediumBelow {
+
+            width: 10rem;
+        }
+
+    }
+}

@@ -1,0 +1,338 @@
+{
+    "blocks": {
+        "block1": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "title",
+                    "details": {
+                        "tag": "h1",
+                        "text": "Fee-free banking"
+                    }
+                }
+            }
+        },
+        "block2": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "title",
+                    "details": {
+                        "tag": "h3",
+                        "text": "We don't charge fees. Really."
+                    }
+                }
+            }
+        },
+        "block3": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "image",
+                    "details": {
+                        "src": "nofees"
+                    }
+                }
+            }
+        },
+        "block4": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "Banking with no fees is possible"
+                            },
+                            "text": "<p>There are no minimum balance requirements, no maintenance, overdraft or monthly fees associated with your Simple account. Enjoy fee-free transfers and card replacement.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "ridfees"
+                        }
+                    }
+                }
+            }
+        },
+        "block5": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "block",
+                        "details": {
+                            "items": {
+                                "item1": {
+                                    "type": "image",
+                                    "details": {
+                                        "src": "message"
+                                    }
+                                },
+                                "item2": {
+                                    "type": "article",
+                                    "details": {
+                                        "title": {
+                                            "tag": "h2",
+                                            "text": "You shouldn’t pay to use your own money"
+                                        },
+                                        "text": "<p>Banks make hefty profits by charging their customers various fees (and, unsurprisingly, creating confusing situations to inspire their due).</p><p>Simple is changing the banking industry for the better: we’re set up to run without needing to profit from unfair, confusing fees.</p><p>We won’t charge you fees. Ever. From the bottom of our hearts, we promise.</p><p>Because people should win. Three cheers for people!</p>"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "column2": {
+                           "type": "text",
+                           "details": {
+                               "text": ""
+                           }
+                    }
+                }
+            }
+        },
+        "block6": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "title",
+                        "details": {
+                            "tag": "h2",
+                            "text": "We mention “fees” 26 times on this page, but you’ll never have to pay one:"
+                        }
+                    },
+                    "column2": {
+                           "type": "text",
+                           "details": {
+                               "text": ""
+                           }
+                    }
+                }
+            }
+        },
+        "block7": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "block",
+                    "details": {
+                        "items": {
+                            "item1": {
+                               "type": "title",
+                               "details": {
+                                   "tag": "h3",
+                                   "text": "Our official list of fees"
+                               }
+                            },
+                            "item2": {
+                                "type": "table",
+                                "details": {
+                                    "table": {
+                                        "head": {
+                                           "items": {
+                                               "row1": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "Item"
+                                                        },
+                                                        "item2":  {
+                                                            "text": "Fee"
+                                                        }
+                                                    }
+                                               }
+                                           }
+                                        },
+                                        "body": {
+                                            "items": {
+                                                "row1": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "Minimum Balance"
+                                                        },
+                                                        "item2": {
+                                                            "text": "$0"
+                                                        }
+                                                    }
+                                                },
+                                                "row2": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "Monthly Account Maintenance"
+                                                        },
+                                                        "item2": {
+                                                            "text": "$0"
+                                                        }
+                                                    }
+                                                },
+                                                "row3": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "Overdraft Fee"
+                                                        },
+                                                        "item2": {
+                                                            "text": "$0"
+                                                        }
+                                                    }
+                                                },
+                                                "row4": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "ACH Bank Transfer Fee -- Incoming and Outgoing"
+                                                        },
+                                                        "item2": {
+                                                            "text": "$0"
+                                                        }
+                                                    }
+                                                },
+                                                "row5": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "Account Closing Fee"
+                                                        },
+                                                        "item2": {
+                                                            "text": "$0"
+                                                        }
+                                                    }
+                                                },
+                                                "row6": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "Card Replacement Fee"
+                                                        },
+                                                        "item2": {
+                                                            "text": "$0"
+                                                        }
+                                                    }
+                                                },
+                                                "row7": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "ATM Fees (Domestic)"
+                                                        },
+                                                        "item2": {
+                                                            "text": "Allpoint ATMs: $0 <br /> All other ATMs: No fee from Simple, but there might be a fee assessed by that ATM operator."
+                                                        }
+                                                    }
+                                                },
+                                                "row8": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "ATM Fees (International) (EFT S/C SVC CHG ATM WITHDRAWAL)"
+                                                        },
+                                                        "item2": {
+                                                            "text": "No fee from Simple, but there might be a fee assessed by that ATM operator."
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "block8": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "block",
+                    "details": {
+                        "items": {
+                            "item1": {
+                               "type": "title",
+                               "details": {
+                                   "tag": "h3",
+                                   "text": "Visa Network Fees"
+                               }
+                            },
+                            "item2": {
+                                "type": "table",
+                                "details": {
+                                    "table": {
+                                        "head": {
+                                           "items": {
+                                               "row1": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "Item"
+                                                        },
+                                                        "item2":  {
+                                                            "text": "Fee"
+                                                        }
+                                                    }
+                                               }
+                                           }
+                                        },
+                                        "body": {
+                                            "items": {
+                                                "row1": {
+                                                    "items": {
+                                                        "item1": {
+                                                            "text": "International Debit Card Transaction — Visa charges an International Service Assessment (ISA) in order to cover the costs of converting currency and using foreign ATM and Card Networks. (EFT S/C SVC CHG INTRNTL TRAN)"
+                                                        },
+                                                        "item2": {
+                                                            "text": "Up to 1% of the transaction value"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "block9": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "title",
+                        "details": {
+                            "tag": "h2",
+                            "text": "A 40,000-strong network of totally free ATMs"
+                        }
+                    },
+                    "column2": {
+                           "type": "image",
+                           "details": {
+                               "src": "atm"
+                           }
+                    }
+                }
+            }
+        }    
+    }
+}

@@ -1,0 +1,232 @@
+@import 'styles/shared/index.scss';
+
+// section
+.section {
+
+    margin: 0 1rem 8rem 1rem;
+
+    @include atMediumBelow {
+        margin: 0 1rem 4rem 1rem;
+    }
+}
+
+// title
+.mainTitle {
+    
+    margin: 8rem 0 3rem 0;
+    text-align: center;
+
+    @include atMediumBelow {
+        margin: 4rem 1rem 3rem 1rem;
+    }
+}
+
+
+// banner
+.pageBanner {
+    
+    margin: 0 0 8rem 0;
+
+    @include atMediumBelow {
+        margin: 0 1rem 4rem 1rem;
+    }
+
+    & img {
+
+        width: 100%;
+    }
+}
+
+
+// twocolumns1
+.twocolumns1 {
+
+    border: 0;
+    margin-bottom: 0;
+
+    & > div:last-child {
+
+       & img {
+
+          width: 20rem;
+
+          @include atMediumBelow {
+             width: 15rem;
+          }
+       }
+    }
+}
+
+
+.container1 {
+
+  border: 0;
+  margin: 0 0 8rem 0;
+}
+
+.left1 {
+
+  border: 0;
+  margin: 0 3rem 0 0;
+
+  @include atMediumBelow {
+
+     margin: 0 0 2rem 0;
+  }
+
+  & p {
+      margin: 1rem 0 1rem 0;
+  }
+}
+
+.right1 {
+
+  border: 0;
+  justify-self: center;
+
+  & img {
+
+    width: 35rem;
+
+    @include atMediumBelow {
+
+        width: 25rem;
+    }
+  }
+}
+
+.points {
+
+    border: 0;
+    text-align: center;
+}
+
+.title1 {
+
+    border: 0;
+
+}
+
+.flexcontainer1 {
+
+    border: 0;
+    margin: 1rem 0 0 0;
+}
+
+.row {
+
+    border: 0;
+    
+    @include atMediumBelow {
+
+        display: block;
+    }
+}
+
+.itemRow {
+
+    border: 0;
+    width: 15rem;
+    margin: 0 2rem 0 0;
+
+    @include atMediumBelow {
+
+        width: 100%;
+
+        margin: 0 0 2rem 0;
+    }
+
+    & span {
+
+        display: block;
+        margin: 0 0 1rem 0;
+
+        @include atMediumBelow {
+
+            margin: 0 0 0.5rem 0;
+        }
+    }
+}
+
+.twocolumns2 {
+
+    border: 0;
+}
+
+
+.container2 {
+
+    border: 0;
+    margin: 0 0 8rem 0;
+  }
+  
+  .left2 {
+  
+    border: 0;
+    margin: 0 3rem 0 0;
+  
+    @include atMediumBelow {
+  
+       margin: 0 0 2rem 0;
+    }
+  
+    & p {
+        margin: 1rem 0 1rem 0;
+    }
+  }
+  
+  .right2 {
+  
+    border: 0;
+    justify-self: center;
+  
+    & img {
+  
+      width: 25rem;
+  
+      @include atMediumBelow {
+  
+          width: 20rem;
+      }
+    }
+  }
+
+
+.container3 {
+
+    border: 0;
+    margin: 0 0 8rem 0;
+  }
+  
+  .left3 {
+  
+    border: 0;
+    margin: 0 3rem 0 0;
+  
+    @include atMediumBelow {
+  
+       margin: 0 0 2rem 0;
+    }
+  
+    & p {
+        margin: 1rem 0 1rem 0;
+    }
+  }
+  
+.right3 {
+  
+    border: 0;
+    justify-self: center;
+  
+    & img {
+  
+      width: 25rem;
+  
+      @include atMediumBelow {
+  
+          width: 20rem;
+      }
+    }
+  }
+  
+  

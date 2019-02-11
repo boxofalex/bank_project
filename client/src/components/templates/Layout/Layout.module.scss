@@ -1,0 +1,17 @@
+@import 'styles/shared/index.scss';
+
+.main {
+
+    grid-column: 1/5;
+    min-height: 60vh;
+    display: grid;
+    align-content: start;
+    width: 100%;
+    margin: 0 auto;
+
+    @include atMediumBelow {
+        
+        margin: 0;
+        width: 100%;
+    }
+}

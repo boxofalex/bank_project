@@ -1,0 +1,251 @@
+{
+    "blocks": {
+        "block1": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "block",
+                    "details": {
+                        "items": {
+                            "item1": {
+                                "type": "title",
+                                "details": {
+                                    "tag": "h1",
+                                    "text": "Goals"
+                                }
+                            },
+                            "item2": {
+                                "type": "title",
+                                "details": {
+                                    "tag": "h3",
+                                    "text": "Like digital envelopes, Goals are for making your dreams come true, just a little faster."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "block2": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                    "type": "image",
+                    "details": {
+                        "src": "bike"
+                    }
+                }
+            }
+        },
+        "block3": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "Use Goals to stash away money."
+                            },
+                            "text": "<p>Automate saving for things you want, or want to do. From a trip to Italy to a new bike. All at once.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "trio"
+                        }
+                    }
+                },
+                "item2": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "Save for anything, a little at a time."
+                            },
+                            "text": "<p>Set an amount to save and a date to save it by, and let your Goal turn the hard work of saving into an easy win. You can even choose how often you want to move money from your Safe-to-Spend® into the Goal (like every payday).</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "dream"
+                        }
+                    }
+                },
+                "item3": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "There’s no need for extra apps."
+                            },
+                            "text": "<p>Goals make saving and managing money easy, from right inside your Simple checking account. You won’t need any additional budgeting apps, and your funds stay hidden from your Safe-to-Spend, so you won’t unintentionally spend them. </p><p>Do the things you’ve always been meaning to do by turning them into Goals, like buying that RV and touring the national parks. They’re flexible and customizable, ready to work with however you handle your finances.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "dreambig"
+                        }
+                    }
+                }
+            }
+        },
+        "block4": {
+            "layout": {
+                "type": "onecolumn"
+            },
+            "items": {
+                "item1": {
+                     "type": "title",
+                    "details": {
+                        "tag": "h2",
+                        "text": "How it works"
+                        }
+                }
+            }
+        },
+        "block5": {
+            "layout": {
+                "type": "flexcontainer"
+            },
+            "items": {
+                "item1": {
+                    "blocks": {
+                        "item1": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h3",
+                                            "text": "1."
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Hit the ‘Create a Goal’ or ‘Add’ button"
+                                        }
+                                    }
+                                }
+                            }
+
+                        },
+                        "item2": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h3",
+                                            "text": "2."
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "Choose a name, the amount you’d like to save, how often you want to contribute, and a completion date."
+                                        }
+                                    }
+                                }
+                            }
+
+                        },
+                        "item3": {
+                            "type": "block",
+                            "details": {
+                                "items": {
+                                    "item1": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h3",
+                                            "text": "3."
+                                        }
+                                    },
+                                    "item2": {
+                                        "type": "title",
+                                        "details": {
+                                            "tag": "h4",
+                                            "text": "That’s it! Seriously!"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "block6": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "Start a Savings Goal."
+                            },
+                            "text": "<p>Some things in life take a little longer to save for, but are no less important to feeling confident with your money. Whether you’re squirreling money away for an emergency fund, a wedding, or a college fund, a Savings Goal makes it easier. Everything you save lives close by in a separate Protected Goal Account, so you won’t accidentally spend it.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "sofa"
+                        }
+                    }
+       
+                }
+            }   
+        },
+        "block7": {
+            "layout": {
+                "type": "twocolumns",
+                "flexible": "yes"
+            },
+            "items": {
+                "item1": {
+                    "column1": {
+                        "type": "article",
+                        "details": {
+                            "title": {
+                                "tag": "h2",
+                                "text": "Emergency Fund"
+                            },
+                            "text": "<p><strong>Emergency Fund Goal</strong> <br /> Sometimes a big expense comes your way that can be really tough to cover. A surprise trip to the vet, a broken fridge, or just dropping your phone. To help, we created Emergency Fund - a handy way to tuck away savings, automatically. It’s easy to set up and you’ll be ready the next time life happens.</p><p><strong>Know how much to save</strong> <br /> We'll help you figure out how much to save by taking a look at what you earn and how fast you want to build up your fund.</p><p><strong>Automatically contribute</strong> <br /> Once you set it up, we’ll do the work of saving for you a little each day.</p><p><strong>No temptations</strong> <br /> Your Emergency Fund is set up as a new and Protected Goals Account, so you won't accidentally spend it.</p>"
+                        }
+                    },
+                    "column2": {
+                        "type": "image",
+                        "details": {
+                            "src": "pig"
+                        }
+                    }
+       
+                }
+            }   
+        }
+    }
+}
